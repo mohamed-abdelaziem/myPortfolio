@@ -10,6 +10,7 @@ import Experience from "./_components/Experience/Experience";
 import Work from "./_components/Work/Work";
 import Contact from "./_components/Contact/Contact";
 import "aos/dist/aos.css";
+import "../app/home.css";
 
 export default function Home() {
   useEffect(() => {
