@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+--font-cairo : var(--font-cairo) !important;
+--color-main : #030712 ;
+--color-second : #111827;
+--color-divider-bg : #1F2937;
+--color-heading-two : #374151;
+--spacing-y-heading-two : 4px;
+--spacing-x-heading-two : 20px; 
+--spacing-x-main : 80px;
+--spacing-y-main : 16px;
+--color-titles : #F9FAFB;
+--color-paragraph : #D1D5DB;
+--color-btn-bg : #F9FAFB; 
+--text-heading-one : 60px;
+--text-heading-two : 14px;
+--text-heading-three : 30px;
+--text-paragraph : 16px;
+--text-links : 16px;
+}
+
+body {
+font-family: var(--font-cairo);
+overflow-x: hidden !important;
+}
+
+
+nav {
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+* {
+scroll-behavior: smooth;
+scroll-padding-top: 100px;
+}
+
+
+.work-box {
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
