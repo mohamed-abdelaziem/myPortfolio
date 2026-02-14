@@ -21,7 +21,7 @@
 --text-links : 16px;
 }
 
-body {
+html , body {
 font-family: var(--font-cairo);
 overflow-x: hidden !important;
 }
