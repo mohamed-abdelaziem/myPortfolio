@@ -26,7 +26,7 @@ export default function About() {
           </div>
 
           <div className="right-side lg:w-1/2" >
-            <h3 className="dark:text-[#F9FAFB] text-second text-[24px] lg:text-heading-three font-semibold mt-10 lg:mt-0">
+            <h3 className="dark:text-[#F9FAFB] text-second text-[20px] md:text-[24px] lg:text-heading-three font-semibold mt-10 lg:mt-0">
               Curious about me? Here you have it:
             </h3>
             <p className="text-links text-[#4B5563] dark:text-paragraph mt-6">

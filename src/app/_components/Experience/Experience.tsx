@@ -15,7 +15,7 @@ export default function Experience() {
             Experience
           </h2>
           <p className="text-[#4B5563] md:text-[20px] dark:text-paragraph mt-4">
-            Here is a quick summary of my most recent experiences:{" "}
+            Here is a quick summary of my most recent experiences
           </p>
         </div>
 

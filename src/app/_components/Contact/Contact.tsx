@@ -15,7 +15,7 @@ export default function Contact() {
         id="contact"
         className="flex flex-col p-4 lg:px-20 lg:py-24 min-h-screen bg-[#F9FAFB] dark:bg-second">
         <div className="heading-center mb-12 text-center">
-          <h2 className=" w-fit mx-auto bg-[#E5E7EB] dark:bg-heading-two px-[20px] py-1 rounded-xl text-[#4B5563] dark:text-white dark:text-paragraph ">
+          <h2 className=" w-fit mx-auto bg-[#E5E7EB] dark:bg-heading-two px-[20px] py-1 rounded-xl text-[#4B5563]  dark:text-paragraph ">
             Get in touch
           </h2>
           <p className="text-[#4B5563]  md:text-[20px] dark:text-paragraph mt-4">
@@ -24,7 +24,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="flex gap-8 flex-col justify-center grow ">
+        <div className="flex gap-8 flex-col  grow ">
           <div className="middle text-center space-y-4">
             <p className="text-second dark:text-[#F9FAFB] text-[20px] md:text-[36px] font-semibold block">
               <a href="mailto:muhmed.abdelaziem@gmail.com">
@@ -36,7 +36,7 @@ export default function Contact() {
                 onClick={() => copyText("muhmed.abdelaziem@gmail.com")}></i>
             </p>
             <p className="text-second dark:text-[#F9FAFB] text-[20px] md:text-[36px] font-semibold cursor-pointer">
-              <a href="href='https://wa.me/201012658066'">
+              <a href="https://wa.me/201012658066">
                 <i className="fa-solid fa-phone"></i> +20 1012658066
               </a>{" "}
               <i

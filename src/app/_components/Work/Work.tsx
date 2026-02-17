@@ -17,14 +17,14 @@ export default function Work() {
             Work
           </h2>
           <p className="text-[#4B5563] md:text-[20px] dark:text-paragraph mt-4">
-            Some of the noteworthy projects I have built:
+            Some of the noteworthy projects I have built
           </p>
         </div>
 
         {/* parent */}
 
         <div className="flex flex-col gap-12 items-center">
-          <div data-aos="fade-left" className="work-box w-full lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl overflow-hidden">
+          <div data-aos="fade-left" className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
             <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
               <a
                 href="https://e-commerce-61cz.vercel.app/#/home"
@@ -83,7 +83,7 @@ export default function Work() {
             </div>
           </div>
 
-          <div data-aos="fade-right" className="work-box w-full lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl overflow-hidden">
+          <div data-aos="fade-right" className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
             <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
               <a
                 href="https://social-app-annj.vercel.app/"
@@ -139,7 +139,7 @@ export default function Work() {
             </div>
           </div>
 
-          <div data-aos="fade-left" className="work-box w-full lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl overflow-hidden">
+          <div data-aos="fade-left" className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
             <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
               <a
                 href="https://note-app-sage-nu.vercel.app/#/home"
@@ -195,7 +195,7 @@ export default function Work() {
             </div>
           </div>
 
-          <div data-aos="fade-right" className="work-box w-full lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl overflow-hidden">
+          <div data-aos="fade-right" className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
             <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
               <a
                 href="https://wethaqstore.com/"
@@ -239,7 +239,7 @@ export default function Work() {
             </div>
           </div>
 
-          <div data-aos="fade-left" className="work-box w-full lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl overflow-hidden">
+          <div data-aos="fade-left" className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
             <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
               <a
                 href="https://drhudaalmusalem.com/"

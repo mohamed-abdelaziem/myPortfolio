@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Cairo } from "next/font/google";
 import "./globals.css";
-import Navbar from "./_components/Navbar/Navbar";
 import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 
@@ -30,11 +29,10 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
           type="image/x-icon"
         />
       </head>
-      <body className={`${cairo.variable} antialiased`}>
+      <body className={`${cairo.variable} md:overflow-[none] overflow-x-hidden antialiased bg-white dark:bg-main`}>
         {children}
       </body>
 
-      {/* <script src="../../node_modules/aos/dist/aos.js"></script> */}
     </html>
   );
 }
