@@ -26,19 +26,19 @@ export default function Contact() {
 
         <div className="flex gap-8 flex-col  grow ">
           <div className="middle text-center space-y-4">
-            <p className="text-second dark:text-[#F9FAFB] text-[20px] md:text-[36px] font-semibold block">
+            <p className="text-second dark:text-[#F9FAFB] text-[18px] md:text-[36px] font-semibold block">
               <a href="mailto:muhmed.abdelaziem@gmail.com">
-                <i className="fa-solid fa-envelope"></i>{" "}
+                <i className="fa-solid fa-envelope"></i>
                 muhmed.abdelaziem@gmail.com
-              </a>{" "}
+              </a>
               <i
                 className="fa-regular fa-clone cursor-pointer"
                 onClick={() => copyText("muhmed.abdelaziem@gmail.com")}></i>
             </p>
-            <p className="text-second dark:text-[#F9FAFB] text-[20px] md:text-[36px] font-semibold cursor-pointer">
+            <p className="text-second dark:text-[#F9FAFB] text-[18px] md:text-[36px] font-semibold cursor-pointer">
               <a href="https://wa.me/201012658066">
                 <i className="fa-solid fa-phone"></i> +20 1012658066
-              </a>{" "}
+              </a>
               <i
                 className="fa-regular fa-clone cursor-pointer "
                 onClick={() => copyText("+201012658066")}></i>
