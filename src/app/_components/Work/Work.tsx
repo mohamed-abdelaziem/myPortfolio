@@ -3,13 +3,19 @@ import noteApp from "../../../../public/images/note-app-photo.png";
 import eCommerceApp from "../../../../public/images/e-commerce-app.jpg";
 import hudaWeb from "../../../../public/images/dr-huda-website.png";
 import socialApp from "../../../../public/images/social-app (2).png";
+import feesTracker from "../../../../public/images/feesTracker.png";
+import portfolio from "../../../../public/images/portfolio.png";
+import enquirySystem from "../../../../public/images/enquirySystem.png";
+import taskMaster from "../../../../public/images/taskMaster.png";
+import techNova from "../../../../public/images/techNova.png";
+import alhilalLab from "../../../../public/images/alhilalLab.png";
 import Image from "next/image";
 
 export default function Work() {
   return (
     <>
       <div
-      data-aos="fade-down"
+        data-aos="fade-down"
         id="work"
         className="p-4 lg:px-20 lg:py-24 min-h-screen bg-white dark:bg-main">
         <div className="heading-center mb-12 text-center">
@@ -24,7 +30,9 @@ export default function Work() {
         {/* parent */}
 
         <div className="flex flex-col gap-12 items-center">
-          <div data-aos="fade-left" className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
+          <div
+            data-aos="fade-left"
+            className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
             <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
               <a
                 href="https://e-commerce-61cz.vercel.app/#/home"
@@ -50,22 +58,22 @@ export default function Work() {
               </p>
               <div className="flex flex-wrap gap-2">
                 <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
-                  Angular
+                  Angular (Standalone Components & Routing)
                 </span>
                 <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
-                  Tailwind
+                  Tailwind CSS
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Reactive Forms
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Route Guards
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  RESTful API Integration
                 </span>
                 <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
                   Responsive Design
-                </span>
-                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
-                  Typescript
-                </span>
-                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
-                  REST APIs
-                </span>
-                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
-                  Guards
                 </span>
                 <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
                   Services
@@ -83,7 +91,300 @@ export default function Work() {
             </div>
           </div>
 
-          <div data-aos="fade-right" className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
+          <div
+            data-aos="fade-right"
+            className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
+            <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
+              <a
+                href="https://fees-tracker-app.vercel.app/"
+                className="block w-full h-full">
+                <Image
+                  src={feesTracker}
+                  alt="feesTracker"
+                  className="w-full h-full object-cover rounded-xl cursor-pointer object-center"
+                />
+              </a>
+            </div>
+
+            <div className="right basis-1/2 flex p-4  lg:p-10 bg-white dark:bg-divider-bg   gap-3 flex-col h-full">
+              <p className="text-[20px] font-semibold  text-second dark:text-[#F9FAFB]">
+                Fees Tracker
+              </p>
+              <p className="text-links text-[#4B5563] dark:text-paragraph">
+                FeesTracker – Enrollment & Payment Management Dashboard I’m
+                excited to share FeesTracker, a modern admin dashboard designed
+                to manage student enrollments and track payment progress in a
+                clear and efficient way.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Angular (Standalone Components & Routing)
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Typescript
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Routes Guards
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Services
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Auth Handle
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Responsive Design
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Gsap
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Tailwind
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Toastr Service
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Cookies Service
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  RESTful API Integration
+                </span>
+              </div>
+              <a href="https://fees-tracker-app.vercel.app/">
+                <i className="fa-solid fa-link text-[#4B5563]"></i>
+              </a>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-left"
+            className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
+            <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
+              <a
+                href="https://enquiry-system.vercel.app/"
+                className="block w-full h-full">
+                <Image
+                  src={enquirySystem}
+                  alt="enquirySystem"
+                  className="w-full h-full object-cover rounded-xl cursor-pointer object-center"
+                />
+              </a>
+            </div>
+
+            <div className="right basis-1/2 flex p-4  lg:p-10 bg-white dark:bg-divider-bg   gap-3 flex-col h-full">
+              <p className="text-[20px] font-semibold  text-second dark:text-[#F9FAFB]">
+                Enquiry System
+              </p>
+              <p className="text-links text-[#4B5563] dark:text-paragraph">
+                The Enquiry Management System is a role-based web application
+                built using Angular and Tailwind CSS to manage customer
+                enquiries efficiently.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Angular (Standalone Components & Routing)
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Typescript
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Routes
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Responsive Design
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Toastr Service
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Tailwind
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Cookies Service
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Services
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  RESTful API Integration
+                </span>
+              </div>
+              <a href="https://enquiry-system.vercel.app/">
+                <i className="fa-solid fa-link text-[#4B5563]"></i>
+              </a>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-right"
+            className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
+            <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
+              <a
+                href="https://task-master-ten-kappa.vercel.app/"
+                className="block w-full h-full">
+                <Image
+                  src={taskMaster}
+                  alt="taskMaster"
+                  className="w-full h-full object-cover rounded-xl cursor-pointer object-center"
+                />
+              </a>
+            </div>
+
+            <div className="right basis-1/2 flex p-4  lg:p-10 bg-white dark:bg-divider-bg   gap-3 flex-col h-full">
+              <p className="text-[20px] font-semibold  text-second dark:text-[#F9FAFB]">
+                TaskMaster
+              </p>
+              <p className="text-links text-[#4B5563] dark:text-paragraph">
+                TaskMaster is a full-featured productivity web application built
+                with Angular and Tailwind CSS, designed to help users
+                efficiently manage their tasks, goals, and reminders through a
+                clean and responsive dashboard experience.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Angular
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Typescript
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Responsive Design
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Toastr Service
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Tailwind
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Cookies Service
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  REST APIS
+                </span>
+              </div>
+              <a href="https://task-master-ten-kappa.vercel.app/">
+                <i className="fa-solid fa-link text-[#4B5563]"></i>
+              </a>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-left"
+            className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
+            <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
+              <a
+                href="https://tech-nova-8cy6.vercel.app/#/home"
+                className="block w-full h-full">
+                <Image
+                  src={techNova}
+                  alt="techNova"
+                  className="w-full h-full object-cover rounded-xl cursor-pointer object-center"
+                />
+              </a>
+            </div>
+
+            <div className="right basis-1/2 flex p-4  lg:p-10 bg-white dark:bg-divider-bg   gap-3 flex-col h-full">
+              <p className="text-[20px] font-semibold  text-second dark:text-[#F9FAFB]">
+                Tech Nova
+              </p>
+              <p className="text-links text-[#4B5563] dark:text-paragraph">
+                The project implements authentication and role-based
+                permissions, using Angular Guards, Services, SSR, Reactive
+                Forms, TypeScript, and Tailwind CSS to deliver a secure,
+                scalable, and modern user interface. Proud to share this
+                academic project that demonstrates real-world application
+                architecture, clean code practices, and full-stack frontend
+                development skills
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Angular
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Typescript
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Responsive Design
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Toastr Service
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Tailwind
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Cookies Service
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  REST APIS
+                </span>
+              </div>
+              <a href="https://tech-nova-8cy6.vercel.app/#/home">
+                <i className="fa-solid fa-link text-[#4B5563]"></i>
+              </a>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-right"
+            className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
+            <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
+              <a
+                href="https://my-portfolio-zoc4.vercel.app/"
+                className="block w-full h-full">
+                <Image
+                  src={portfolio}
+                  alt="portfolio"
+                  className="w-full h-full object-cover rounded-xl cursor-pointer object-center"
+                />
+              </a>
+            </div>
+
+            <div className="right basis-1/2 flex p-4  lg:p-10 bg-white dark:bg-divider-bg   gap-3 flex-col h-full">
+              <p className="text-[20px] font-semibold  text-second dark:text-[#F9FAFB]">
+                Portfolio
+              </p>
+              <p className="text-links text-[#4B5563] dark:text-paragraph">
+                The portfolio is built with Next.js and Tailwind CSS for a
+                modern and fast UI, with AOS and jQuery used to add smooth
+                animations and enhance the user experience. The website is also
+                fully responsive, ensuring a seamless experience across all
+                devices.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Next Js
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Typescript
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Responsive Design
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Aos Jquery
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Tailwind
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Jquery
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Image Optimization
+                </span>
+              </div>
+              <a href="https://my-portfolio-zoc4.vercel.app/">
+                <i className="fa-solid fa-link text-[#4B5563]"></i>
+              </a>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-right"
+            className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
             <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
               <a
                 href="https://social-app-annj.vercel.app/"
@@ -139,7 +440,9 @@ export default function Work() {
             </div>
           </div>
 
-          <div data-aos="fade-left" className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
+          <div
+            data-aos="fade-left"
+            className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
             <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
               <a
                 href="https://note-app-sage-nu.vercel.app/#/home"
@@ -195,7 +498,9 @@ export default function Work() {
             </div>
           </div>
 
-          <div data-aos="fade-right" className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
+          <div
+            data-aos="fade-right"
+            className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
             <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
               <a
                 href="https://wethaqstore.com/"
@@ -239,7 +544,9 @@ export default function Work() {
             </div>
           </div>
 
-          <div data-aos="fade-left" className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
+          <div
+            data-aos="fade-left"
+            className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
             <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
               <a
                 href="https://drhudaalmusalem.com/"
@@ -254,7 +561,7 @@ export default function Work() {
 
             <div className="right basis-1/2 flex p-4  lg:p-10 bg-white dark:bg-divider-bg   gap-3 flex-col h-full">
               <p className="text-[20px] font-semibold  text-second dark:text-[#F9FAFB]">
-                Dr Huda Musallam
+                Dr Huda Musallem
               </p>
               <p className="text-links text-[#4B5563] dark:text-paragraph">
                 A professional medical website developed for Dr. Huda Muslim,
@@ -278,6 +585,52 @@ export default function Work() {
                 </span>
               </div>
               <a href="https://drhudaalmusalem.com/">
+                <i className="fa-solid fa-link text-[#4B5563]"></i>
+              </a>
+            </div>
+          </div>
+
+          <div
+            data-aos="fade-left"
+            className="work-box w-full overflow-hidden lg:w-[95%] xl:w-[80%] flex lg:flex-row flex-col lg:h-125 rounded-xl ">
+            <div className="left bg-[#F9FAFB] dark:bg-heading-two   p-4  lg:p-10  flex items-center justify-center basis-1/2  lg:h-full">
+              <a
+                href="https://alhilalmedlabs.com/"
+                className="block w-full h-full">
+                <Image
+                  src={alhilalLab}
+                  alt="alhilalLab"
+                  className="w-full h-full object-cover rounded-xl cursor-pointer object-center"
+                />
+              </a>
+            </div>
+
+            <div className="right basis-1/2 flex p-4  lg:p-10 bg-white dark:bg-divider-bg   gap-3 flex-col h-full">
+              <p className="text-[20px] font-semibold  text-second dark:text-[#F9FAFB]">
+                Alhilal Lab
+              </p>
+              <p className="text-links text-[#4B5563] dark:text-paragraph">
+                Al Hilal Medical Laboratory is a modern medical platform
+                offering a wide range of diagnostic tests and healthcare
+                services. The website allows users to بسهولة book tests, explore
+                medical packages, and request home sample collection, providing
+                a fast and convenient user experience.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Wordpress
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Elementor
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Responsive Design
+                </span>
+                <span className="inline-block px-[20px] py-1 rounded-xl bg-[#E5E7EB] dark:bg-heading-two text-[#4B5563] dark:text-paragraph">
+                  Payment Getway
+                </span>
+              </div>
+              <a href="https://alhilalmedlabs.com/">
                 <i className="fa-solid fa-link text-[#4B5563]"></i>
               </a>
             </div>

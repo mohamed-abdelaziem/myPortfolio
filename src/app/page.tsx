@@ -38,8 +38,8 @@ export default function Home() {
         <Contact />
 
         <p className="text-center px-20 py-6 bg-white md:text-[18px] dark:bg-main dark:text-paragraph">
-          &copy;2026 | Designed and coded with ❤️️{" "}
-          <span>Mohamed Abdelaziem</span>
+          &copy;2026 | Designed and coded with
+          <span>Mohamed Abdelaziem  ❤️</span>
         </p>
       </div>
     </>

@@ -10,10 +10,11 @@ export default function Contact() {
   }
   return (
     <>
+  
       <div
       data-aos="fade-up"
         id="contact"
-        className="flex flex-col p-4 lg:px-20 lg:py-24 min-h-screen bg-[#F9FAFB] dark:bg-second">
+        className="flex flex-col p-4 lg:px-20 lg:py-24 min-h-[50vh] bg-[#F9FAFB] dark:bg-second">
         <div className="heading-center mb-12 text-center">
           <h2 className=" w-fit mx-auto bg-[#E5E7EB] dark:bg-heading-two px-[20px] py-1 rounded-xl text-[#4B5563]  dark:text-paragraph ">
             Get in touch
@@ -26,18 +27,18 @@ export default function Contact() {
 
         <div className="flex gap-8 flex-col  grow ">
           <div className="middle text-center space-y-4">
-            <p className="text-second dark:text-[#F9FAFB] text-[18px] md:text-[36px] font-semibold block">
-              <a href="mailto:muhmed.abdelaziem@gmail.com">
-                <i className="fa-solid fa-envelope"></i>
+            <p className="text-second dark:text-[#F9FAFB] space-x-3 text-[18px] md:text-[25px] font-semibold block">
+              <a href="mailto:muhmed.abdelaziem@gmail.com" className="space-x-2">
+                <i className="fa-solid fa-envelope mr-2"></i>
                 muhmed.abdelaziem@gmail.com
               </a>
               <i
                 className="fa-regular fa-clone cursor-pointer"
                 onClick={() => copyText("muhmed.abdelaziem@gmail.com")}></i>
             </p>
-            <p className="text-second dark:text-[#F9FAFB] text-[18px] md:text-[36px] font-semibold cursor-pointer">
+            <p className="text-second dark:text-[#F9FAFB] text-[18px] space-x-3 md:text-[25px] font-semibold cursor-pointer">
               <a href="https://wa.me/201012658066">
-                <i className="fa-solid fa-phone"></i> +20 1012658066
+                <i className="fa-solid fa-phone mr-2"></i> +20 1012658066
               </a>
               <i
                 className="fa-regular fa-clone cursor-pointer "
