@@ -30,7 +30,7 @@ export default function Navbar() {
       <nav className="z-99999 dark:bg-main bg-white px-4 py-4  lg:px-x-main lg:py-y-main fixed top-0 left-0 right-0 ">
         <div className="my-container lg:py-8 flex items-center justify-between  gap-4 flex-row  mx-auto">
           <div className="logo w-1/4 text-heading-three text-second dark:text-[#F9FAFB] font-bold">
-            <a href="#hero"><h1 className="cursor-pointer" >{"<Mo.Abdelaziem/>"}</h1></a>
+            <a href="#hero"><h1 className="cursor-pointer" >M.Abdelaziem</h1></a>
           </div>
 
           <div onClick={()=>{setnavIsShow(!navIsShow)}} className="block lg:hidden text-[25px] cursor-pointer">
